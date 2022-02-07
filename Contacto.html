@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>Contacto | Your Restaurant</title>
+    <meta name="viewport" content="whidth=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0" />
+    <link href="css/Estilo-Index.css" rel="stylesheet" />
+    <link href="css/Estilo-Contacto.css" rel="stylesheet" />
+    <!--iconos-->
+   <link rel="stylesheet" href="css/font.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Your Restaurant</h1>
+            </div>
+            <div class="main-header--contactinfo column column--50">
+                <p class="main-header--contactinfo--phone">
+                    <span class="icon-phone">02320-456-186</span>
+                </p>
+                <p class="main-header--contactinfo--adress">
+                    <span class="icon-location">san martin 1075</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main--nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu--item"><a href="/" class="menu--link ">Inicio</a></li>
+                <li class="menu--item"><a href="nosotros.html" class="menu--link ">Nosotros</a></li>
+                <li class="menu--item"><a href="galeria.html" class="menu--link">Galeria</a></li>
+                <li class="menu--item"><a href="contacto.html" class="menu--link menu--link--select">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social-icon--link"><span class="icon-facebook"></span></a>
+                <a href="" class="social-icon--link"><span class="icon-twitter"></span></a>
+                <a href="" class="social-icon--link"><span class="icon-mail"></span></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <img src="images/pag-contacto/banner-contacto.jpeg" alt="" class="banner--img" />
+        <div class="banner--content">Dejanos Un Mensaje</div>
+    </section>
+
+    <main class="main">
+    <section class="group contact">
+        <h2 class="group--title">Contactenos</h2>
+        <div class="container container--flex">
+            <div class="contact--information column column--50">
+                <h3 class="column--title">Informacion De Contacto</h3>
+                <p class="column--txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis deserunt nisi dolorum eius ipsa animi, iure assumenda unde eaque, odit itaque </p>
+                <p class="column--txt"><span class="icon-phone"></span>Telefono: 02021-452-761</p>
+                <p class="column--txt"><span class="icon-phone"></span>Telefono: 02021-452-894</p>
+                <p class="column--txt"><span class="icon-location"></span>San Martin 1075</p>
+                <p class="column--txt"><span class="icon-mail"></span>consultasYR@gmail.com</p>
+                  <div class="social-icon">
+                  <a href="" class="social-icon--link"><span class="icon-facebook"></span></a>
+                  <a href="" class="social-icon--link"><span class="icon-twitter"></span></a>
+                  <a href="" class="social-icon--link"><span class="icon-mail"></span></a>
+                 </div>
+            </div>
+            <form action="enviar-prueba.php" method="post" class="formulario column column--50">
+               <label for="" class="formulario--label">Nombre:</label><input type="text" class="formulario--input--txt" name="Nombre">
+               
+                   <label for="" class="formulario--label">Correo:</label><input type="text" class="formulario--input--txt" name="Correo">
+                   
+                       <label for="" class="formulario--label">Telefono:</label><input type="text" class="formulario--input--txt" name="Telefono">
+                       
+                       <label for="" class="formulario--label">Mensaje:</label>
+                       <textarea name="Mensaje" id="" cols="30" rows="10" class="formulario--txtarea"></textarea>
+                       
+                       <input type="submit" class="btn formulario--btn" value="Enviar">
+            </form>
+        </div>
+    </section>
+    </main>
+    <footer class="main--footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <h2 class="column--title">¿Por Que Visitarnos?</h2>
+                <p class="column--txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet congue nisl, at blandit massa tincidunt id. Cras ligula tortor, rhoncus semper massa et, hendrerit dignissim eros.</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column--title">Contactanos</h2>
+                <p class="column--txt">San Martin 1075 Bolivar</p>
+                <p class="column--txt">Telefono:1254-665-785</p>
+                <p class="column--txt">EJEMPLO3@GMAIL.COM</p>
+            </div>
+            <div class="column column--33">
+                <h2 class="column--title">Siguenos En Nuestras Redes Sociales</h2>
+                <p class="column--txt"><a href="" class="icon-facebook">Facebook</a></p>
+                <p class="column--txt"><a href="" class="icon-twitter">Siguenos En Twitter</a> </p>
+                <p class="column--txt"><a href="" class="icon-youtube">Visita Nuestro Canal</a> </p>
+            </div>
+            <p class="copy">© 2018 your restaurant | todos los derechos reservados</p>
+        </div>
+    </footer>
+    
+    <script src="js/menu.js"></script>
+    <script src="js/Modal-Galeria.js"></script>
+</body>
+</html>
